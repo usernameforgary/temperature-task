@@ -1,18 +1,8 @@
 package org.example;
 
-
-import org.example.entity.City;
-import org.example.entity.Country;
-import org.example.entity.Province;
-import org.example.entity.WeatherInfo;
-import org.example.exception.DataNotFoundException;
-import org.example.exception.FetchDataException;
-import org.example.service.IService;
-import org.example.service.imp.ServiceImp;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.util.List;
 import java.util.Optional;
 import java.util.Scanner;
 
